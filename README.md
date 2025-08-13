@@ -72,16 +72,7 @@ npx grunt watch
 
 ### test-ux
 
-- Contains UI widgets and servlets.
-- Example usage in JavaScript:
-  ```javascript
-  require(['/nmodule/test/rc/TestWidget'], function (TestWidget) {
-    var widget = new TestWidget();
-    widget.initialize($('#myWidgetGoesHere')).then(function () {
-      return widget.load('my value');
-    });
-  });
-  ```
+- Contains UI and servlets.
 - See [`testlicense/test-ux/README.md`](testlicense/test-ux/README.md) for more.
 
 ## Testing
