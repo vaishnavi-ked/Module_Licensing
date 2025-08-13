@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>License Verification</title>
+    <style>
+        html, body {
+          height: 100%;
+          margin: 0;
+          font-family: Arial, sans-serif;
+          display: flex;
+          justify-content: center; /* horizontal center */
+          align-items: center;    /* vertical center */
+          background: #f0f0f0;
+        }
+        .container {
+          text-align: center;
+          padding: 2rem;
+          background: #004080; /* dark blue background */
+          border: 1px solid #003366;
+          box-shadow: 0 0 12px rgba(0, 0, 50, 0.3);
+          border-radius: 8px;
+          width: 320px;
+          color: white;
+        }
+        #message {
+          margin-top: 1rem;
+          padding: 1rem;
+          border: 1px solid #002244;
+          background: #cce6ff; /* light blue background */
+          color: #003366;
+          white-space: pre-wrap;
+          height: 150px;
+          overflow-y: auto;
+          font-size: 0.9rem;
+          text-align: left;
+          border-radius: 4px;
+        }
+        button {
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
+          cursor: pointer;
+          margin-top: 1rem;
+          border: none;
+          background-color: #007bff;
+          color: white;
+          border-radius: 4px;
+          transition: background-color 0.3s ease;
+        }
+        button:hover {
+          background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>License Check</h1>
+    <h3 id="checkBtn">Checking license</h3>
+    <div id="message">Checking license...</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

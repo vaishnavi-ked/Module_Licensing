@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.9" createdAt="12-Aug-2025" createdOn="LAPTOP-27QBT9P6">
+<class module="testlicense" runtimeProfile="rt" qualifiedName="com.ked.testlicense.LicenseVerifier" name="LicenseVerifier" packageName="com.ked.testlicense" public="true">
+<description/>
+<extends>
+<type class="java.lang.Object"/>
+</extends>
+<!-- com.ked.testlicense.LicenseVerifier() -->
+<constructor name="LicenseVerifier" public="true">
+<description/>
+</constructor>
+
+<!-- com.ked.testlicense.LicenseVerifier.main(java.lang.String[]) -->
+<method name="main"  public="true" static="true">
+<description/>
+<parameter name="args">
+<type class="java.lang.String" dimension="1"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+</class>
+</bajadoc>

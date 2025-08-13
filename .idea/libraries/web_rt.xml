@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="web-rt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Niagara/Niagara-4.14.0.162/modules/web-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

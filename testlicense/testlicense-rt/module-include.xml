@@ -1,0 +1,9 @@
+<types>
+  <!--com.ked.testlicense.ui-->
+  <!--com.ked.testlicense-->
+  <type class="com.ked.testlicense.BFirstComponent" name="FirstComponent"/>
+  <type class="com.ked.testlicense.BNiagaraLicenseCheck" name="NiagaraLicenseCheck"/>
+  <type class="com.ked.testlicense.BLicense" name="License"/>
+  <!--com.ked.key-->
+  <type class="com.ked.key.BNiagaraLicenseCheck" name="NiagaraLicenseCheck"/>
+</types>

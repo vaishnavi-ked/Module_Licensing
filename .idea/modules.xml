@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testlicense/test-ux/testlicense.test-ux.main.iml" filepath="$PROJECT_DIR$/.idea/modules/testlicense/test-ux/testlicense.test-ux.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testlicense/testlicense-rt/testlicense.testlicense-rt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/testlicense/testlicense-rt/testlicense.testlicense-rt.main.iml" />
+    </modules>
+  </component>
+</project>

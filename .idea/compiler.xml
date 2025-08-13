@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="niagara.module.root" value="C:\myModules\RT\testlicense\testlicense-rt" />
+        <option name="niagara.test.roots" value="srcTest=java" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../niagara/niagara-4.14.0.162/bin/ext/nre.jar" />
+        </processorPath>
+        <module name="testlicense.testlicense-rt.main" />
+        <module name="testlicense.testlicense-rt.moduleTest" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="niagara.module.root" value="C:\myModules\RT\testlicense\test-ux" />
+        <option name="niagara.test.roots" value="srcTest=java" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../niagara/niagara-4.14.0.162/bin/ext/nre.jar" />
+        </processorPath>
+        <module name="testlicense.test-ux.main" />
+        <module name="testlicense.test-ux.moduleTest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8" />
+  </component>
+</project>

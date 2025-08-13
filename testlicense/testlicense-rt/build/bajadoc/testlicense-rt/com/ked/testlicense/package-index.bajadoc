@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.9" createdAt="12-Aug-2025" createdOn="LAPTOP-27QBT9P6">
+<package module="testlicense" runtimeProfile="rt" name="com.ked.testlicense">
+<description/>
+<class packageName="com.ked.testlicense" name="BFirstComponent"/>
+<class packageName="com.ked.testlicense" name="BLicense"/>
+<class packageName="com.ked.testlicense" name="BNiagaraLicenseCheck"/>
+<class packageName="com.ked.testlicense" name="KeyGeneratorTool"/>
+<class packageName="com.ked.testlicense" name="LicenseGenerator"/>
+<class packageName="com.ked.testlicense" name="LicenseGeneratorsde"/>
+<class packageName="com.ked.testlicense" name="LicenseVerifier"/>
+</package>
+</bajadoc>

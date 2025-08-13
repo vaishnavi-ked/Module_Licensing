@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="testlicense-rt" bajaVersion="0" vendor="ked" vendorVersion="1.0" description="testing for licensed components" preferredSymbol="test" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="LAPTOP-27QBT9P6" moduleName="testlicense" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+ <types>
+  <type class="com.ked.testlicense.BFirstComponent" name="FirstComponent"/>
+  <type class="com.ked.testlicense.BNiagaraLicenseCheck" name="NiagaraLicenseCheck"/>
+  <type class="com.ked.testlicense.BLicense" name="License"/>
+  <type class="com.ked.key.BNiagaraLicenseCheck" name="NiagaraLicenseCheck"/>
+ </types>
+ <permissions>
+  <niagara-permission-groups type="all">
+   <req-permission>
+    <name>FILE_PERMISSION</name>
+    <purposeKey>Read public key for license verification</purposeKey>
+    <parameters>
+     <parameter name="path" value="${niagara.shared.user.home}/ked-licenses/public.key"/>
+     <parameter name="actions" value="read"/>
+    </parameters>
+   </req-permission>
+   <req-permission>
+    <name>FILE_PERMISSION</name>
+    <purposeKey>Read license file for verification</purposeKey>
+    <parameters>
+     <parameter name="path" value="${niagara.shared.user.home}/ked-licenses/license.lic"/>
+     <parameter name="actions" value="read"/>
+    </parameters>
+   </req-permission>
+  </niagara-permission-groups>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+</module>

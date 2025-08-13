@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.9" createdAt="12-Aug-2025" createdOn="LAPTOP-27QBT9P6">
+<class module="testlicense" runtimeProfile="rt" qualifiedName="com.ked.testlicense.BNiagaraLicenseCheck" name="BNiagaraLicenseCheck" packageName="com.ked.testlicense" public="true">
+<description/>
+<extends>
+<type class="javax.baja.sys.BComponent"/>
+</extends>
+<!-- com.ked.testlicense.BNiagaraLicenseCheck() -->
+<constructor name="BNiagaraLicenseCheck" public="true">
+<description/>
+</constructor>
+
+<!-- com.ked.testlicense.BNiagaraLicenseCheck.getType() -->
+<method name="getType"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<return>
+<type class="javax.baja.sys.Type"/>
+</return>
+</method>
+
+<!-- com.ked.testlicense.BNiagaraLicenseCheck.doCheckLicense() -->
+<method name="doCheckLicense"  public="true">
+<description/>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.ked.testlicense.BNiagaraLicenseCheck.checkLicense -->
+<field name="checkLicense"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Action"/>
+<description/>
+</field>
+
+<!-- com.ked.testlicense.BNiagaraLicenseCheck.TYPE -->
+<field name="TYPE"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Type"/>
+<description/>
+</field>
+
+</class>
+</bajadoc>

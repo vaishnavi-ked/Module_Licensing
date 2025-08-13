@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="testlicense-rtTest" bajaVersion="0" vendor="ked" vendorVersion="1.0" description="Tests for module testlicense-rt" preferredSymbol="test" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="LAPTOP-27QBT9P6" moduleName="testlicenseTest" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="test-wb" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="testlicense-rt" vendor="ked" vendorVersion="1.0"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+</module>

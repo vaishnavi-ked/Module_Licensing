@@ -1,0 +1,9 @@
+<types>
+  <!--testlicense-->
+  <type class="testlicense.BLicense" name="License"/>
+  <!--com.ked.testlicense-->
+  <type class="com.testlicense.BMyFirstWebServlet" name="MyFirstWebServlet"/>
+  <!--  <type class="testlicense.LicenseCheckServlet" name="LicenseCheckServlet"/>-->
+  <!--com.testlicense-->
+  <type class="com.testlicense.BLicense" name="License"/>
+</types>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="test-ux" bajaVersion="0" vendor="ked" vendorVersion="1.0" description="ui" preferredSymbol="test" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="LAPTOP-27QBT9P6" moduleName="test" runtimeProfile="ux">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="js-ux" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="web-rt" vendor="Tridium" vendorVersion="4.14"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+ <types>
+  <type class="testlicense.BLicense" name="License"/>
+  <type class="com.testlicense.BMyFirstWebServlet" name="MyFirstWebServlet"/>
+  <type class="com.testlicense.BLicense" name="License"/>
+ </types>
+</module>
